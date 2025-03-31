@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Niklas Virtanen | CV</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div id="language-switcher">
+        <select id="language-select" onchange="changeLanguage(this.value)">
+            <option value="fi">Suomi</option>
+            <option value="en">English</option>
+        </select>
+    </div>
+
+    <header>
+        <h1 data-key="header">Niklas Virtanen</h1>
+        <p data-key="tagline">Ohjelmoija</p>
+    </header>
+
+    <footer>
+        <p>&times; 2025 Niklas Virtanen</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
