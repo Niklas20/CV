@@ -1,0 +1,3 @@
+-Skills osio
+-projects osio
+-linkedin contact osioon

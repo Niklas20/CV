@@ -1,28 +1,118 @@
 <!DOCTYPE html>
 <html lang="fi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Niklas Virtanen | CV</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div id="language-switcher">
-        <select id="language-select" onchange="changeLanguage(this.value)">
-            <option value="fi">Suomi</option>
-            <option value="en">English</option>
-        </select>
+    <div class="container">
+        <div id="language-switcher">
+            <label for="language-select">🌍</label>
+            <select id="language-select" onchange="changeLanguage(this.value)">
+                <option value="fi">Suomi</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+
+        <header>
+            <h1 data-key="header">Niklas Virtanen</h1>
+        </header>
+
+        <section id="about">
+            <h2 data-key="about">Tietoa minusta</h2>
+            <p data-key="about_text">
+                Olen Niklas, 18-vuotias tietojenkäsittelyn ja ohjelmoinnin opiskelija, joka on erityisen kiinnostunut
+                ohjelmisto-, peli- ja web-kehityksestä. Tykkään oppia uusia asioita, ja tavoitteenani on jatkuvasti
+                kehittää
+                taitojani käytännön projekteilla. Minulla on työkokemusta eri aloilta, mikä on vahvistanut
+                sopeutumiskykyäni, itseohjautuvuuttani ja yhteistyötaitojani. Uskon, että tekninen osaamiseni
+                yhdistettynä
+                oppimishaluuni tekee minusta arvokkaan osaajan monenlaisissa tehtävissä.
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2 data-key="experience">Työkokemus</h2>
+            <ul>
+                <li>
+                    <strong>Terakuu Oy</strong> – <span data-key="internship">Työharjoittelu</span> (1/2025 - 6/2025)
+                    <p data-key="job_7">Kehitin tekoälymalleja yrityksen käyttöön ja opin syvällisemmin koneoppimisen
+                        prosesseista.</p>
+                </li>
+
+                <li>
+                    <strong>Mosaiikki Ry</strong> – <span data-key="internship">Työharjoittelu</span> (8/2024 - 10/2024)
+                    <p data-key="job_6">Suunnittelin ja toteutin kaksi opettavaista lastenpeliä yhdessä tiimikaverini
+                        kanssa. Pelit löytyvät projektit-osiosta sekä GitHub-tililtäni.</p>
+                </li>
+
+                <li>
+                    <strong>Wapice Oy</strong> – <span data-key="summer_job">Kesätyö</span> (6/2024 - 8/2024)
+                    <p data-key="job_5">Osallistuin yrityksen sisäiseen verkkosivuprojektiin käyttäen TypeScriptiä ja
+                        Reactia.</p>
+                </li>
+
+                <li>
+                    <strong>Mosaiikki Ry</strong> – <span data-key="internship">Työharjoittelu</span> (3/2024 - 6/2024)
+                    <p data-key="job_4">Suunnittelin ja toteutin kaksi opettavaista lastenpeliä yhdessä tiimikaverini
+                        kanssa. Pelit löytyvät projektit-osiosta sekä GitHub-tililtäni.</p>
+                </li>
+
+                <li>
+                    <strong>Mesitek Oy</strong> – <span data-key="internship">Työharjoittelu</span> (2/2023 - 3/2023)
+                    <p data-key="job_3">Kehitin digitaalisen työkalun koneiden huoltopäivämäärien seurantaan,
+                        joka tehosti yrityksen ylläpitoprosesseja.</p>
+                </li>
+
+                <li>
+                    <strong>Mesitek Oy</strong> – <span data-key="summer_job">Kesätyö</span> (2022)
+                    <p data-key="job_2">Työskentelin tuotantotiloissa erilaisissa valmistus- ja
+                        kokoonpanotehtävissä.</p>
+                </li>
+
+                <li>
+                    <strong>K-Market</strong> – <span data-key="internship">Työharjoittelu</span> (2022)
+                    <p data-key="job_1">Työskentelin tavaravastaanotossa ja vastasin tuotteiden purkamisesta,
+                        tarkistamisesta ja hyllyttämisestä.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2 data-key="education">Koulutus</h2>
+            <ul>
+                <li>
+                    <strong data-key="education_1_title">Tieto- ja viestintätekniikka – Gradia Jyväskylä</strong> (2022
+                    - 2025)
+                    <p data-key="education_1">
+                        Suuntautumiseni on sovellus-, peli- ja web-kehitykseen, ja olen kartuttanut osaamistani muun
+                        muassa
+                        ohjelmoinnissa, käyttöliittymäsuunnittelussa, rajapinnoissa sekä tietokannoissa. Opintojeni
+                        aikana
+                        olen
+                        työskennellyt useiden projektien parissa, kehittäen käytännön taitoja ohjelmistokehityksessä.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2 data-key="contact">Yhteystiedot</h2>
+            <p data-key="email">Sähköposti: virtanen.niklas20@gmail.com</p>
+            <p data-key="phone">Puhelin: +358 40 2181698</p>
+            <p data-key="github">Github: <a href="https://github.com/Niklas20">Niklas20</a></p>
+        </section>
     </div>
 
-    <header>
-        <h1 data-key="header">Niklas Virtanen</h1>
-        <p data-key="tagline">Ohjelmoija</p>
-    </header>
-
     <footer>
-        <p>&times; 2025 Niklas Virtanen</p>
+        <p>&copy; 2025 Niklas Virtanen</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
