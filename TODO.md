@@ -1,3 +1,3 @@
+-Kielen käännökset project osioon
 -Skills osio
--projects osio
 -linkedin contact osioon
