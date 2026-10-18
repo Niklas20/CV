@@ -1,3 +1,3 @@
 # CV
 
-Niklas Virtasen CV
+Niklas Virtanen CV
